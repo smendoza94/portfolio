@@ -3,7 +3,8 @@
 
 /* ----- VARIABLES ----- */
 :root{
-    --body-color: rgb(90, 90, 90);
+/* ----- Dark Mode ----- */
+    --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
 
     --text-color-second: rgb(68, 68, 68);
@@ -14,7 +15,23 @@
 
     --second-color: rgb(110, 87, 224);
     --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgba(0, 0, 0, 0.1);
+    --first-shadow-color: rgba(0, 0, 0, 0.1); 
+
+/* ----- Light Mode ----- */
+/*  
+    --body-color: rgb(250, 250, 250);
+    --color-white: rgb(255, 255, 255);
+
+    --text-color-second: rgb(68, 68, 68);
+    --text-color-third: rgb(30, 159, 171);
+
+    --first-color: rgb(110, 87, 224);
+    --first-color-hover: rgb(40, 91, 212);
+
+    --second-color: rgb(110, 87, 224);
+    --third-color: rgb(192, 166, 49);
+    --first-shadow-color: rgba(0, 0, 0, 0.1); 
+*/
 
 }
 
