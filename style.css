@@ -5,7 +5,7 @@
 :root{
 /* ----- Dark Mode ----- */
     --body-color: rgb(24, 24, 27);
-    --color-white: rgb(39, 39, 42);
+    --color-white: rgb(30, 30, 32);
 
     --text-color-second: rgb(230, 243, 229);
     --text-color-third: rgb(122, 180, 116);
@@ -339,7 +339,7 @@ h3{
 .about-info p{
     text-align: center;
     font-size: 15px;
-    color: #777;
+    color: var(--text-color-second);
 }
 .about-btn button{
     position: absolute;
@@ -396,7 +396,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: var(--first-color);
     margin-bottom: 25px;
 }
 .project-box label{
@@ -502,7 +502,7 @@ textarea{
     color: var(--color-white);
 }
 .form-button>.btn:hover{
-    background: #00B5E7;
+    background: var(--second-color);
 }
 .form-button i{
     font-size: 18px;
@@ -516,7 +516,7 @@ footer{
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #F8F8F8;
+    background: var(--color-white);
     padding-block: 40px 60px;
 }
 .top-footer p{
